@@ -58,30 +58,21 @@ Installation
 
 Clone the repository
 
-git clone https://github.com/your-username/newsapp.git
-cd newsapp
-
+```
+git clone git clone <your_github_repo_url>
+cd <folder_name>
+```
 
 Install dependencies
 
-npm install
-# or
-yarn install
-
-
-Configure API keys
-Create a .env file at the root of the project and add your API key:
-
-NEWS_API_KEY=your_api_key_here
-
+```
+npm install 
+```
 
 Run the app
-
-# iOS
-npx react-native run-ios
-
-# Android
-npx react-native run-android
+```
+npx expo start
+```
 
 Usage
 
