@@ -59,7 +59,7 @@ Installation
 Clone the repository
 
 ```
-git clone git clone <your_github_repo_url>
+git clone <your_github_repo_url>
 cd <folder_name>
 ```
 
