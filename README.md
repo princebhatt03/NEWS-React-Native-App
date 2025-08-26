@@ -3,28 +3,6 @@ NewsApp – React Native
 
 NewsApp is a modern mobile application built with React Native that provides users with the latest news from multiple categories and sources. It features an intuitive UI, offline support, and fast performance for a seamless reading experience.
 
-Table of Contents
-
-Features
-
-Demo
-
-Tech Stack
-
-Installation
-
-Usage
-
-Folder Structure
-
-API Integration
-
-Contributing
-
-License
-
-Features
-
 Browse latest news articles from multiple categories: Technology, Sports, Business, Entertainment, Health, Science, and more.
 
 Search for news articles by keyword.
@@ -109,6 +87,7 @@ API Integration
 This app uses NewsAPI
  to fetch the latest news. Example API call:
 
+```
 import axios from 'axios';
 
 const fetchNews = async () => {
@@ -117,6 +96,7 @@ const fetchNews = async () => {
   );
   return response.data.articles;
 };
+```
 
 ### 👨‍💻 Developer
 Prince Bhatt
